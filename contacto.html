@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto - Cursos de Cocina</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #d5f5e3;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+        }
+
+        .contenedor {
+            text-align: center;
+        }
+
+        .grupocontacto {
+            max-width: 400px;
+            margin-top: 20px;
+        }
+
+        .grupocontacto {
+            margin-bottom: 15px;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 5px;
+            color: #333;
+        }
+
+        input, textarea {
+            width: 100%;
+            padding: 10px;
+            box-sizing: border-box;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            margin-top: 5px;
+        }
+
+        .botoninicio {
+            background-color: #5cb85c;
+            color: #fff;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease-in-out;
+        }
+
+        .boton:hover {
+            background-color: #4cae4c;
+        }
+
+        .tabla {
+            width: 100%;
+            margin-top: 20px;
+            border-collapse: collapse;
+            border-radius: 5px;
+            overflow: hidden;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+        }
+
+        .tabla th, .tabla td {
+            padding: 15px;
+            text-align: center;
+            border-bottom: 1px solid #ddd;
+        }
+
+        .tabla th {
+            background-color: #5cb85c;
+            color: #fff;
+        }
+
+        .tabla td {
+            background-color: #fff;
+        }
+        .botoninicio {
+            display: block;
+            font-size: 18px;
+            font-weight: bold;
+            text-decoration: none;
+            color: #fff;
+            background-color: #5cb85c;
+            padding: 10px 20px;
+            margin: 10px 0;
+            border-radius: 5px;
+            transition: background-color 0.3s ease-in-out;
+        }
+
+        .botoninicio:hover {
+            background-color: #5cb85c;
+        }
+
+    </style>
+</head>
+<body>
+
+    <div class="contenedor">
+        <div class="grupocontacto">
+            <h2>Contacto</h2>
+                <div class="grupocontacto">
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" id="nombre" name="nombre" required>
+                </div>
+                <div class="grupocontacto">
+                    <label for="email">Correo Electrónico:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="grupocontacto">
+                    <label for="mensaje">Mensaje:</label>
+                    <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+                </div>
+                <button type="botonmensaje">Enviar Mensaje</button>
+            </form>
+        </div>
+
+        <table class="tabla">
+            <thead>
+                <tr>
+                    <th>Día</th>
+                    <th>Curso de Cocina</th>
+                    <th>Curso de Repostería</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Lunes</td>
+                    <td>09:00 - 13:00</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Martes</td>
+                    <td></td>
+                    <td>09:00 - 13:00</td>
+                </tr>
+                <tr>
+                    <td>Miércoles</td>
+                    <td>09:00 - 13:00</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Jueves</td>
+                    <td></td>
+                    <td>09:00 - 13:00</td>
+                </tr>
+                <tr>
+                    <td>Viernes</td>
+                    <td>09:00 - 13:00</td>
+                    <td></td>
+                </tr>
+            </tbody>
+        </table>
+        
+
+        <center><a href="index.html"><button class="botoninicio">Volver a la página de inicio</button></a></center>
+
+    </div>
+
+</body>
+</html>

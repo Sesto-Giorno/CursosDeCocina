@@ -1,0 +1,25 @@
+{
+	"folders": [
+		{
+			"path": "../../../html"
+		},
+		{
+			"path": "../../imagenes"
+		},
+		{
+			"path": "C:/progbloc/repaso"
+		},
+		{
+			"path": "C:/progbloc"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "html",
+		"liveServer.settings.port": 5500,
+		"java.debug.settings.onBuildFailureProceed": true,
+		"liveServer.settings.CustomBrowser": "chrome",
+		"java.test.config": {
+
+		}
+	}
+}
